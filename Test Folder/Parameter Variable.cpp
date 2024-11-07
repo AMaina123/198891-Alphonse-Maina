@@ -4,7 +4,7 @@ using namespace std;
 //Function that takes two integer parameters a and b
 void addAndDisplay(int value1,int value2){
     int sum= value1 + value2; //Sum is a local variable within the function
-    cout<< "Sum of" <<value1 << "and" <<value2 << "is" <<sum <<endl;
+    cout<< "Sum of" << value1 << "and" << value2 << "is" << sum <<endl;
 }
 int main()
 {
