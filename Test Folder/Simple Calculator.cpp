@@ -7,7 +7,7 @@ int main()
     cout << "Enter the numbers"; 
     cin >> num1 >> num2;
     double calculator; 
-    cout <<"Enter calculator("sum", "difference", "mult", "div"): ";
+    cout <<"Enter calculator ("sum", "difference", "mult", "div"): ";
 
     int sum= num1 + num2;
     cout << "Sum is";
@@ -17,7 +17,7 @@ int main()
     cin >>num1 >>num2 >>endl;
     int mult= num1 * num2;
     cout << "Product is";
-    cin >> num1 >> num2 >> endl;
+    cin >> num1 >> num2 >>endl;
     int div= num1/num2;
     cout <<"Divided number is";
     cin >> num1 >> num2 >> endl;
