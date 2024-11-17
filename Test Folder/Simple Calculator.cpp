@@ -4,23 +4,30 @@ using namespace std;
 int main()
 {
     double num1, num2;
-    cout << "Enter the numbers"; 
-    cin >> num1 >> num2;
-    double calculator; 
-    cout <<"Enter calculator ("sum", "difference", "mult", "div"): ";
+    cout << "Enter the first number"; 
+    cin >> num1; 
+    cout <<"Enter the second number";
+    cin >> num2;
+    
+    double sum= num1 + num2;
+    cout << "Sum is " << sum <<endl;
+    cin >>num1 >>num2;
 
-    int sum= num1 + num2;
-    cout << "Sum is";
-    cin >>num1 >>num2 >>endl;
-    int difference= num1 - num2;
-    cout <<"Difference is";
-    cin >>num1 >>num2 >>endl;
-    int mult= num1 * num2;
-    cout << "Product is";
-    cin >> num1 >> num2 >>endl;
-    int div= num1/num2;
-    cout <<"Divided number is";
-    cin >> num1 >> num2 >> endl;
+    double difference= num1 - num2;
+    cout <<" Difference is " << difference <<endl;
+    cin >>num1 >>num2;
+
+    double mult= num1 * num2;
+    cout << "Product is " << mult <<endl;
+    cin >> num1 >> num2;
+
+    double div= num1/num2;
+    cout <<"Divided number is " << div <<endl;
+    cin >> num1 >> num2;
+
+    cout << "Please Input The Function Required";
+    cin >>sum >>difference >>mult >>div; 
+
 
      if (sum)
     {
