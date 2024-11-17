@@ -3,16 +3,15 @@ using namespace std;
 
 int main()
 {
-    int grade= >-1 && <101;
+    int grade;
     string fullName;
 
     cout <<"Please Enter The Student's Full Name" <<endl;
     cin >> fullName; 
-    cout <<"Please Enter The Student's Grade" <<endl;
     cin >> grade;
+    string message= (grade >= 0 && grade <= 100)? "Please Enter The Student's Grade" : "Invalid";
     
-    string message= (grade >= 0 && grade <= 100)? "Please Enter The Student's Grade" : "Invalid"; 
-       
+
        if (grade >=70 && grade <=100)
        {
         cout <<fullName <<" has received an A" <<endl;
