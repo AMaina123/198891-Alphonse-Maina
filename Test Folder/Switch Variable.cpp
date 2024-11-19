@@ -14,11 +14,35 @@ int main()
     cout <<"Monday Classes \n" <<endl;
     cout <<"\t1. BBIT 1106: Math for Biz" <<endl;
     cout <<"\t2. BBIT 1102: Intro to Programming" <<endl;
-        break;
+    break;
+
     case 2:
     cout <<"Tuesday Classes \n" <<endl;
-    cout <<"\t2. BBIT 1102:Intr ";
+    cout <<"\t 1. BBIT 1102:Intro to Programs" <<endl;
+    cout <<"\t2. BBIT 1104:Intro to Ethics" <<endl;
+    break;
+
+    case 3:
+    cout <<"Wednesday Classes \n" <<endl;
+    cout <<"t 1.BBIT 1106: Math for Business" <<endl;
+    cout <<"\t 2.BBIT 1102: Theology" <<endl;
+    cout <<"\t 3.BBIT 1102: Fundamentals Of IT" <<endl;
+    break;
+
+    case 4:
+    cout <<"Thursday Classes \n" <<endl;
+    cout <<"\t 1.BBIT 1105: Accounting" <<endl;
+    cout <<"\t 2.BBIT 1101: Fundamentals Of IT" <<endl;
+    break;
+
+    case 5:
+    cout <<"Friday Classes \n" <<endl;
+    cout <<"\t 1.BBIT 1103: Business Computing" <<endl;
+    break;
+
     default:
-        break;
+    cout <<"Invalid Input" ;
+    break;
     }
+    return 0;
 }
