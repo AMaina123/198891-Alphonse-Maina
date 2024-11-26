@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int num= 12; //Starting 
+    int num= 12; //Starting variable
     do 
     {
         cout <<num <<endl;

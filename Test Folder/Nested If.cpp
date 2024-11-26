@@ -33,29 +33,23 @@ int main()
 
        //Child Admittance
 
-       if(age >= 7)
-       {
+       if(age >= 7) {
         cout <<childname <<" has been admitted to Grade School " <<endl;
         }  
-        else if (age = 5 && 6)
-        {
+        else if (age = 5 && 6) {
             cout <<childname <<" has been admitted to Kindergarten " <<endl;
         }
-        else if (age = 3 && 4) 
-        {
+        else if (age = 3 && 4) {
             cout <<childname <<" has been admitted to Pre-School " <<endl;
         }
-        else if (age = 1 && 2)
-        {
+        else if (age = 1 && 2) {
             cout <<childname <<" has been admitted to Play Group " <<endl;
         }
         
-    if (age > 10)
-    {
+    if (age > 10) {
      cout <<childname <<" is too old! " <<endl;
      }
-        else (age < 1);
-        {
+        else (age < 1); {
             cout <<childname <<" is too young! " <<endl;
         }
        

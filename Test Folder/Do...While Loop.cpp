@@ -11,6 +11,6 @@ int main()
         cout <<"Do you wish to continue (Y/N)? ";
         cin >>resp; 
 
-    } while (resp != 'N');
+    } while (resp != 'N'); //Creates the condition that the response must not be N. If it is N then the loop stops.
     return 0;
 }
