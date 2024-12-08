@@ -8,7 +8,7 @@
     int product = 1;
     
     cout <<"Please Declare 5 Integers" <<endl;
-    for (int i = 0; i < 5; i++) //i starts at index 0, i must be run at least 5 times, each time being declared by the user
+    for (int i= 0; i < 5; i++) //i starts at index 0, i must be run at least 5 times, each time being declared by the user
     {
         cin >> num[i];
     }
